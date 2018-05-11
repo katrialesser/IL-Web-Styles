@@ -10,7 +10,7 @@ title: Imagine Learning Web Styles
 email: katrialynn18@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Imagine Learning web style guide for all Imagine Learning domain websites. It includes examples and demo code for web elements, fonts, colors, and Vue.js components.
-baseurl: "/web-styles" # the subpath of your site, e.g. /blog
+baseurl: "/IL-Web-Styles" # the subpath of your site, e.g. /blog
 url: "https://katrialesser.github.io/" # the base hostname & protocol for your site
 lang: en # specify content language
 twitter_username: katria_lesser
