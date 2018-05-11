@@ -23,7 +23,8 @@ Katria testing new buttons update
 Demo:
 
 ## Corporate Buttons
-[ Demo here ]
+<button class="il-button il-il">Imagine Language & Literacy</button>
+
 ## Support Buttons
 Demo here
 
