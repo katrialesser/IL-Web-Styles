@@ -22,6 +22,8 @@ Here would be a visual demo...
 
 <button class="il-button il-il">This is a Button</button>
 
+This is text below a button..
+
 ## Code
 
 
