@@ -1,0 +1,40 @@
+<aside class="sidebar">
+
+
+    <a class="sidebar-title" href="{{ site.baseurl }}/">Home</a>
+
+    <nav class="side-nav">
+      
+        <!--{% for my_page in site.pages %}-->
+          <!--{% if my_page.title %}-->
+            <!--<div class="link-wrapper">-->
+              <!--<a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>-->
+            <!--</div>-->
+          <!--{% endif %}-->
+        <!--{% endfor %}-->
+
+        {% assign items = site.pages | sort: 'date' %}
+        {% for my_page in items %}
+
+        <div class="link-wrapper">
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        </div>
+
+        {% endfor %}
+
+
+    </nav>
+
+        <!--<h2>HTML Pages</h2>-->
+
+    <!--<nav class="side-nav-html-pages">-->
+
+        <!--{% for my_pg in site.html_pages %}-->
+          <!--{% if my_pg.title %}-->
+            <!--<div class="link-wrapper">-->
+              <!--<a class="page-link" href="{{ my_pg.url | prepend: site.baseurl }}">{{ my_pg.title }}</a>-->
+            <!--</div>-->
+          <!--{% endif %}-->
+        <!--{% endfor %}-->
+    <!--</nav>-->
+</aside>
